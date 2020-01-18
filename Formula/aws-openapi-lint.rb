@@ -5,6 +5,7 @@ class AwsOpenapiLint < Formula
   homepage "https://github.com/evilmint/aws-openapi-lint"
   head "https://github.com/evilmint/aws-openapi-lint.git"
   url "https://github.com/evilmint/aws-openapi-lint.git", :using => :git
+  version "0.1.0"
 
   depends_on "python"
 
@@ -23,4 +24,3 @@ class AwsOpenapiLint < Formula
     system "aws-openapi-lint --help"
   end
 end
-
